@@ -16,3 +16,5 @@ O entregável desta atividade deve conter:
 Saiba que estamos no Tópico Integrador 02 desta disciplina, nele você realizará a Atividade Integradora 2 e ela considerará os conhecimentos relacionados à disciplina de Desenvolvimento de Interfaces Web. O(s) arquivo(s) produzido(s) deverá(ão) ser submetido(s) na Avaliação Online 2, no AVA.
 Observação: Se necessário, pesquise na internet ou nos livros da biblioteca virtual da instituição conteúdos complementares para a execução da atividade solicitada.
 
+Realizar a fusão (merge) de arquivos de branchs diferentes no próprio projeto. 
+Da atividade av2 tulio 
