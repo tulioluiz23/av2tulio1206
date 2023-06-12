@@ -1,0 +1,137 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logoname {
+    max-width: 600px;
+    margin-bottom: 2px;
+}
+
+body {
+    background-color: #3faaaa;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+    outline: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.caes {
+    font-size: 20px;
+    width: calc(95% / 2);
+    background-color: rgba(117, 95, 129, 0.253); /* Azul */
+    padding: 5px 0;
+    display: flex;
+    text-align: center;
+    border-radius: 2px;
+    color: #c95d5d;
+    text-transform: uppercase;
+    transition: scale 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.caes:hover {
+    scale: 1.1;
+    opacity: 0.5;
+}
+
+form {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+form input:not(.submit),
+select {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    padding: 10px 5px;
+    background: rgba(87, 145, 90, 0.322); /* Azul */
+    color: #ffffff;
+}
+
+select > option {
+    color: #18181b !important;
+}
+
+form label {
+    color: #ffffff;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+form > input.submit {
+    width: 100%;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.253); /* Amarelo */
+}
+
+.cadastrados {
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.cadastrados .caes {
+    cursor: not-allowed;
+    display: flex;
+    justify-content: center;
+    width: min-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff7e;
+    background: rgba(0, 0, 0, 0.315);
+}
+
+.caocadastrados .caes {
+   
+
+

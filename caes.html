@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cadastro Cães</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+</head>
+<body>
+	<img class="logoname" src="./assets/logoname.png" alt="Lista de Cães e Raças"/>
+	
+	<h1 class="title">Cadastro de Cães</h1>
+	
+
+	<form id="formCaes">
+		<div>
+			<label for="">Nome do cão</label>
+			<input type="" id="nameCao" placeholder="Digite o nome do cão">
+
+			<label for="sexo">Genero do cão</label>
+			<select name="sexo" id="sexo">			
+				<option value="Femea">Femea</option>
+				<option value="Macho">Macho</option>				
+			</select>			
+			
+
+			<label for="">Raça do cão</label>
+			<select name="racaCao" id="racaCao">			
+							
+			</select>
+		</div>		
+		<input class="caes submit" type="submit" value="Cadastrar">
+	</form>
+
+	<h2 class="title">Cães Cadastradas</h2>
+	<h6 class="title del">Clique no item para deletar</h6>
+
+	<div id="caosCadastradas" class="container cadastrados caocadastrados"><div class="caes">
+		Nome:
+		Sexo:
+		Raça:
+	</div></div>
+
+	<div class="container">
+		<div class="caes"><a href="index.html">Voltar</a></div>
+		<div class="caes"><a href="racas.html">Cadastro de Raças</a></div>	
+	</div>	
+	
+
+	<script src="caes.js"></script>	
+</body>
+</html>
